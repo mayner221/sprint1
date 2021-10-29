@@ -1,0 +1,154 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 150px;
+    filter: brightness(2);
+    mix-blend-mode: multiply;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+
+.cantCompra ::-webkit-input-placeholder {
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    
+}
+
+
+
+
+.contenedor {
+    
+    padding-top: 10px;
+
+    min-width: 100px;
+    min-height: 100px;
+  
+
+    display: flex;
+
+    align-content: center;
+    margin: 1%;
+   
+    border-radius: 2vh;
+}
+
+.contenedor1 {
+    width: 100%;
+
+    padding: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    
+    max-width: 500px;
+
+    box-shadow: 2px 2px 4px 2px rgb(223, 44, 184);
+    border: 2px solid rgb(223, 44, 184);
+    border-radius: 2vh;
+}
+
+/* .imagen{
+    background-color: blanchedalmond;
+} */
+
+
+.imagen img{
+    max-width: 250px;
+    max-height: 250px;
+    display: flex;
+    width: 100%;
+}
+
+.txtImg{
+    max-width: 250px;
+    max-height: 250px;
+    display: flex;
+    text-align: start;
+    line-height: 100%;
+    
+} 
+
+.btn{
+
+    width: auto;
+    margin: auto;
+    width: 200px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: x-large;
+    
+    box-shadow: 2px 2px 4px 2px rgb(223, 44, 184);
+    border: 2px solid rgb(223, 44, 184);
+    border-radius: 1vh;
+}
+
+
+.cantCompra ::placeholder {
+    color: red;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+#main {
+    
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: center;
+    
+    width: auto;
+    margin: auto;
+
+    background-image: url(../Images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+footer {
+    text-align: right;
+
+   
+    padding: 10px;
+    
+    background-color: rgb(228, 213, 225);;
+
+}
