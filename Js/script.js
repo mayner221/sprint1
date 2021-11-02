@@ -66,4 +66,3 @@ function totalCalculadora() {
     }
 }
 
-let form = document.getElementById('formCant');
